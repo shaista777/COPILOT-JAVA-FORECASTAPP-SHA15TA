@@ -40,3 +40,8 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+test{
+    println "Starting Weather Forecast App Tests"
+    println System.getProperty("OPEN_API_KEY") ? System.getProperty("OPEN_API_KEY") : 'OPEN_API_KEY not found'
+}
