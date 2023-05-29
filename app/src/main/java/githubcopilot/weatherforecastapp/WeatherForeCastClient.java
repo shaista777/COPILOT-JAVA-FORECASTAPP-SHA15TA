@@ -9,7 +9,7 @@ import com.jayway.jsonpath.JsonPath;
 
 public class WeatherForeCastClient {
 
-	private static final String APP_STRING = "a2aa9441a1bffb03736556f7328a8b92";
+	private static final String APP_STRING = "env.APP_STRING";
 	private static final String URLFORECAST_STRING = "https://api.openweathermap.org/data/2.5/forecast";
 	private static final String CONST_QUERY_PARAM_STRING = "&units=metric&mode=json&lang=en&type=accurate";
 	private static final Map<String, String> FORECAST_JQ_MAP;
